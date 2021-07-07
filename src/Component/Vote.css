@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, orange, red);
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 30px;
+}
+.parties {
+  height: 400px;
+  width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.party {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  padding: 10px 40px;
+  background-color: rgb(201, 133, 78);
+  margin-top: 2px;
+}
+button {
+  color: green;
+  background: none;
+  font-size: 30px;
+  border: none;
+}
